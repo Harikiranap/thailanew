@@ -40,7 +40,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 a.active,a:hover{
-    color: orangered;
+    color: blue;
     transition: .5s ease;
 }
 .checkbtn{
@@ -89,7 +89,7 @@ a.active,a:hover{
     }
     a:hover,a.active{
         background: none;
-        color:orangered;
+        color:blue;
     }
     #check:checked~ul{
         left: 0;
@@ -141,7 +141,7 @@ a.active,a:hover{
     margin: 20px 50px;
 }
 .card:hover{
-    background-color: orangered;
+    background-color: blue;
     color: white;
     transition: all 0.6s ease;
 }
