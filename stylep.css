@@ -40,7 +40,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 a.active,a:hover{
-    color: blue;
+    color: orengred;
     transition: .5s ease;
 }
 .checkbtn{
