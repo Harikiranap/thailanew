@@ -95,10 +95,53 @@ a.active,a:hover{
         left: 0;
     }
 }
-section{
-color: white;
-text-align: center;
-font-size: xx-large;
-font-weight: bold;
-padding-top: 20px;
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-img{
+    background-color:grey;
+    height: 300px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    
+}
+.car-1{
+    background-image: url(p1.png);
+}
+.car-2{
+    background-image: url(p2.png);
+}
+.car-3{
+    background-image: url(p3.png);
+}
+.car-4{
+    background-image: url(p4.png);
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover{
+    background-color: orangered;
+    color: white;
+    transition: all 0.6s ease;
 }
