@@ -97,5 +97,8 @@ a.active,a:hover{
 }
 section{
 color: white;
-text-align: center;
+text-align:center;
+padding-top: 20px;
+font-weight: bolder;
+font-size: 30px;
 }
