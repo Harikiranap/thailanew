@@ -95,10 +95,10 @@ a.active,a:hover{
         left: 0;
     }
 }
-section h3{
+section p{
 color: white;
 text-align:center;
 padding-top: 20px;
-font-weight: bolder;
-font-size: 30px;
+font-weight: bold;
+font-size: 20px;
 }
