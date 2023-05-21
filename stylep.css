@@ -89,7 +89,7 @@ a.active,a:hover{
     }
     a:hover,a.active{
         background: none;
-        color:blue;
+        color:sky blue;
     }
     #check:checked~ul{
         left: 0;
