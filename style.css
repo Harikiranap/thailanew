@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(45deg, #ff0000,#ffff00,#ff00f3,#0033ff,brown,yellow,deeppink,slateblue,orangered,skyblue,Violet);
+    background: linear-gradient(45deg, #ff0000,#ff00f3,#0033ff,brown,yellow,deeppink,slateblue,orangered,skyblue,Violet,indianred,lime);
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
 }
