@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    flex-direction: column;
 }
 body{
     font-family: 'Times New Roman', Times, serif;
@@ -106,9 +107,16 @@ a.active,a:hover{
     #check:checked~ul{
         left: 0;
     }
+    .footer{
+        position: static;
+    }
 }
-section{
-    background: url(back1.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh-80px);
+.foot{
+    text-align: center;
+    padding-top: 300px;
 }
+    .foot a{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
