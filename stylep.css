@@ -7,21 +7,8 @@
 }
 body{
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(45deg, #ff0000,#ff00f3,#0033ff,brown,yellow,deeppink,slateblue,orangered,skyblue,Violet,indianred,lime);
-    background-size: 300% 300%;
-    animation: color 12s ease-in-out infinite;
-}
-@keyframes color{
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-}
+    background-image:url('back12.jpg');
+    background-repeat:none;
 nav{
     background: #660000;
     height: 80px;
