@@ -7,8 +7,8 @@
 }
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(back12.jpg);
-    background-repeat:none;
+    background-color:grey;
+   }
 nav{
     background: #660000;
     height: 80px;
